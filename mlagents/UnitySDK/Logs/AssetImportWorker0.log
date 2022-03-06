@@ -1,0 +1,208 @@
+Unity Editor version:    2020.3.30f1 (1fb1bf06830e)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.2 (Build 21D49)
+Darwin version:          21.3.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60458
+Successfully changed project path to: /Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK
+/Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 51.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/Assets
+GfxDevice: creating device client; threaded=0
+2022-03-06 16:01:55.939 Unity[83681:2413200] (null) preferred device: Apple M1 (high power)
+2022-03-06 16:01:55.939 Unity[83681:2413200] Metal devices available: 1
+2022-03-06 16:01:55.939 Unity[83681:2413200] 0: Apple M1 (high power)
+2022-03-06 16:01:55.939 Unity[83681:2413200] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56681
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.30f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001465 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 45.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.346 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1347ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1085ms)
+			LoadAssemblies (129ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (199ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (521ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (320ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004977 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.572 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2573ms)
+		BeginReloadAssembly (388ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (32ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (2061ms)
+			LoadAssemblies (321ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (468ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (58ms)
+			SetupLoadedEditorAssemblies (1065ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (121ms)
+				ProcessInitializeOnLoadAttributes (840ms)
+				ProcessInitializeOnLoadMethodAttributes (85ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (31ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.004508 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.006612 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.30f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Initializing Unity extensions:
+[C# Project] Writing /Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/UnitySDK.sln because it has changed
+[C# Project] First difference on line 4
+
+[C# Project] Current /Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/UnitySDK.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{C1B615ED-83BA-E9B3-B9E3-D8DB14417413}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{56B7B1FA-4F9C-4E2E-EEF8-A0DCFCA75ACE}"
+[C# Project]   007: EndProject
+[C# Project]   008: Global
+
+[C# Project] New /Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/UnitySDK.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{7089A0AC-179B-1157-D18F-01754DCA6BC3}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{C1B615ED-83BA-E9B3-B9E3-D8DB14417413}"
+[C# Project]   007: EndProject
+[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{B918008D-624B-8C2A-B4F9-5F7A4E6028FE}"
+[C# Project] Writing /Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/Assembly-CSharp.csproj because it has changed
+[C# Project] First difference on line 773
+
+[C# Project] Current /Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/Assembly-CSharp.csproj:
+[C# Project]   773:  <Reference Include="Purchasing.Common">
+[C# Project]   774:  <HintPath>/Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/Library/ScriptAssemblies/Purchasing.Common.dll</HintPath>
+[C# Project]   775:  </Reference>
+[C# Project]   776:  <Reference Include="Unity.VSCode.Editor">
+[C# Project]   777:  <HintPath>/Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+
+[C# Project] New /Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/Assembly-CSharp.csproj:
+[C# Project]   773:   </ItemGroup>
+[C# Project]   774:   <ItemGroup>
+[C# Project]   775:     <ProjectReference Include="Purchasing.Common.csproj">
+[C# Project]   776:       <Project>{A0206221-C5D4-5E1C-C6EC-21451DC88B26}</Project>
+[C# Project]   777:       <Name>Purchasing.Common</Name>
+[C# Project] Writing /Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/Assembly-CSharp-Editor.csproj because it has changed
+[C# Project] First difference on line 688
+
+[C# Project] Current /Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/Assembly-CSharp-Editor.csproj:
+[C# Project]   688:  <Reference Include="UnityEngine.TestRunner">
+[C# Project]   689:  <HintPath>/Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+[C# Project]   690:  </Reference>
+[C# Project]   691:  <Reference Include="UnityEditor.TestRunner">
+[C# Project]   692:  <HintPath>/Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+
+[C# Project] New /Users/ronittaleti/Desktop/Github Repos/reinforcement/mlagents/UnitySDK/Assembly-CSharp-Editor.csproj:
+[C# Project]   688:   </ItemGroup>
+[C# Project]   689:   <ItemGroup>
+[C# Project]   690:     <ProjectReference Include="Assembly-CSharp.csproj">
+[C# Project]   691:       <Project>{C1B615ED-83BA-E9B3-B9E3-D8DB14417413}</Project>
+[C# Project]   692:       <Name>Assembly-CSharp</Name>
+2022-03-06 16:02:02.100 Unity[83681:2413200] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000035e5a0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-06 16:02:02.103 Unity[83681:2413200] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x60000034edf0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2291 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.7 MB.
+System memory in use after: 206.9 MB.
+
+Unloading 142 unused Assets to reduce memory usage. Loaded Objects now: 2730.
+Total: 4.828000 ms (FindLiveObjects: 0.120125 ms CreateObjectMapping: 0.047333 ms MarkObjects: 4.227166 ms  DeleteObjects: 0.432375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/ML-Agents/Scripts/Academy.cs
+  artifactKey: Guid(b1fc0029fee784d9cb9854f8912bfd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ML-Agents/Scripts/Academy.cs using Guid(b1fc0029fee784d9cb9854f8912bfd07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d74679c444dc183f9e42deba10f6884') in 0.266412 seconds 
